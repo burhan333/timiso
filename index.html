@@ -599,13 +599,19 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./assets/images/blog1.jpg" class="d-block w-100" alt="...">
+                                <div class="box">
+                                    <img src="./assets/images/blog1.jpg" class="d-block w-100" alt="...">
+                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/images/blog2.jpg" class="d-block w-100" alt="...">
+                                <div class="box">
+                                    <img src="./assets/images/blog2.jpg" class="d-block w-100" alt="...">
+                                </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./assets/images/blog3.jpg" class="d-block w-100" alt="...">
+                                <div class="box">
+                                    <img src="./assets/images/blog3.jpg" class="d-block w-100" alt="...">
+                                </div>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
@@ -679,7 +685,9 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="div1">
-                        <img class="img1" src="./assets/images/logo2.jpg" alt="...">
+                        <a href="#">
+                            <img class="img1" src="./assets/images/logo2.jpg" alt="...">
+                        </a>
                         <p>Distinctivel exploit optimal alignments for intuitive bandwidth. Quickly coordinate business
                             through revolutionary <br> catalysts</p>
                         <img class="img2" src="./assets/images/sign.jpg" alt="...">
@@ -750,7 +758,7 @@
 
     <script>
         $('.owl-carousel').owlCarousel({
-            autoplay: true,
+            // autoplay: true,
             autoplayHoverPause: true,
             nav: false,
             loop: true,

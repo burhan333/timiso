@@ -1093,6 +1093,19 @@ html
     }
 }
 
+@media (max-width: 425px)
+{
+    .owl-carousel .item 
+    {
+        margin: 0px;
+    }
+
+    .testimonial .div1 
+    {
+        margin-left: 0px;
+    }
+}
+
 /* *********************WORK2 SECTION****************************** */
 
 
@@ -1525,6 +1538,8 @@ html
     width: 10px;
     height: 20px;
 }
+
+
 
 @media (max-width: 1199px)
 {
